@@ -22,7 +22,7 @@ const Navbar = () => {
           </Link>
           <Custombutton
           title='Sign In'
-          containerstyles="rounded-full text-blue-600 min-w-[130px] bg-white"
+          containerstyles="rounded-full bg-blue-600 text-white xl:text-blue-600 min-w-[130px] xl:bg-white"
           handlebtn={handleScroll}
           />
         </nav>
