@@ -33,8 +33,9 @@ const Footer = () => {
               </div>
             ))}
           </div>
+          </div>
           <div className='md:hidden flex justify-between flex-wrap item-center mt-1o border-t border-gray-300 sm:px-16 px-6 py-10'>
-            <p className=''>
+            <p className='text-gray-500'>
               @2024 CarHub , All Rights Reserved
             </p>
             <div className='footer__copyrights-link'>
@@ -48,7 +49,6 @@ const Footer = () => {
               </Link>
             </div>
           </div>
-        </div>
       </footer>
     </div>
   )
