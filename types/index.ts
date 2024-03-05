@@ -9,3 +9,6 @@ export interface Manufactureprops{
     setmanufacture:(manufacture:string) => void;
     manufacture:string;
 }
+export interface carprops{
+    cars:string;
+}
