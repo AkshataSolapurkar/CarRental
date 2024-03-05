@@ -1,7 +1,6 @@
 import Image from "next/image";
 import { Fragment, useState } from "react";
 import { Combobox, Transition } from "@headlessui/react";
-
 import { manufacturers } from "@/constants";
 import { Manufactureprops } from "../../../types"
 
@@ -66,7 +65,7 @@ const SearchManufacturer = ({ manufacture, setmanufacture }: Manufactureprops) =
                     key={item}
                     className={({ active }) =>
                       `relative search-manufacturer__option ${
-                        active ? "bg-primary-blue text-white" : "text-gray-900"
+                        active ? "bg-blue-600 text-white" : "text-gray-900"
                       }`
                     }
                     value={item}
@@ -79,7 +78,7 @@ const SearchManufacturer = ({ manufacture, setmanufacture }: Manufactureprops) =
 
                         {/* Show an active blue background color if the option is selected */}
                         {selected ? (
-                          <span className={`absolute inset-y-0 left-0 flex items-center pl-3 ${active? "text-white": "text-pribg-primary-purple"}`}
+                          <span className={`absolute inset-y-0 left-0 flex items-center pl-3 ${active? "text-white": ""}`}
                           ></span>
                         ) : null}
                       </>
